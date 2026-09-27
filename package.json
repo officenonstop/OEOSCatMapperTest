@@ -1,0 +1,40 @@
+{
+  "name": "catmapperapp",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "playwright test",
+    "test:monitored": "node tests/run-monitored.mjs",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "test:visual": "playwright test --grep @visual",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:update-snapshots": "playwright test --update-snapshots",
+    "test:report": "playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/officenonstop/CatMapperApp.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@upstash/redis": "^1.38.0",
+    "next": "^15.2.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "sql.js": "^1.14.1",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.0"
+  }
+}

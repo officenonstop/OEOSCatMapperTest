@@ -1,0 +1,3255 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Users\\132014\\node-v24.11.1-win-x64\\node.exe",
+      "C:\\Nitin\\CatMapperApp\\node_modules\\@playwright\\test\\cli.js",
+      "test"
+    ],
+    "configFile": "C:\\Nitin\\CatMapperApp\\playwright.config.ts",
+    "rootDir": "C:/Nitin/CatMapperApp/tests/specs",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": "C:\\Nitin\\CatMapperApp\\tests\\global-setup.ts",
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Nitin/CatMapperApp/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Nitin/CatMapperApp/tests/specs",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "playwright-report"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "playwright-report/test-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.61.1",
+    "workers": 1,
+    "webServer": {
+      "command": "cmd /c npx next dev -p 3000",
+      "url": "http://127.0.0.1:3000",
+      "reuseExistingServer": false,
+      "timeout": 120000,
+      "env": {
+        "AGENT": "1",
+        "ALLUSERSPROFILE": "C:\\ProgramData",
+        "APPDATA": "C:\\Users\\132014\\AppData\\Roaming",
+        "chassis": "Notebook",
+        "CHROME_CRASHPAD_PIPE_NAME": "\\\\.\\pipe\\crashpad_17480_MJNJLMVVNUEDVCGH",
+        "COLOR": "0",
+        "COLORTERM": "truecolor",
+        "COMMONPROGRAMFILES": "C:\\Program Files\\Common Files",
+        "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+        "CommonProgramW6432": "C:\\Program Files\\Common Files",
+        "COMPUTERNAME": "01HW2136316",
+        "COMSPEC": "C:\\WINDOWS\\system32\\cmd.exe",
+        "COPILOT_DEBUG_NONCE": "7748939d4150079e898cf223dcf94408",
+        "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+        "EDITOR": "C:\\WINDOWS\\notepad.exe",
+        "EFC_10324_1262719628": "1",
+        "EFC_10324_1592913036": "1",
+        "EFC_10324_2283032206": "0",
+        "EFC_10324_2775293581": "1",
+        "EFC_10324_3789132940": "1",
+        "EFC_10324_4126798990": "0",
+        "EXEPATH": "C:\\Users\\132014\\AppData\\Local\\Programs\\Git\\bin",
+        "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+        "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+        "GEMINI_API_KEY": "AIzaSyBiedEm4oMYpD9Sb9Q_jIhJaxcXokRbwkM",
+        "GIT_ASKPASS": "c:\\Nitin\\vscode\\125df4672b\\resources\\app\\extensions\\git\\dist\\askpass.sh",
+        "HOME": "C:\\Users\\132014",
+        "HOMEDRIVE": "C:",
+        "HOMEPATH": "\\Users\\132014",
+        "HTTPS_PROXY": "http://10.150.5.6:8080",
+        "HTTP_PROXY": "http://10.150.5.6:8080",
+        "INIT_CWD": "C:\\Nitin\\CatMapperApp",
+        "LANG": "en_US.UTF-8",
+        "LOCALAPPDATA": "C:\\Users\\132014\\AppData\\Local",
+        "LOGONSERVER": "\\\\01HW2136316",
+        "model": "5320",
+        "MSYSTEM": "MINGW64",
+        "NODE": "C:\\Users\\132014\\node-v24.11.1-win-x64\\node.exe",
+        "NO_PROXY": "localhost,127.0.0.1",
+        "npm_command": "exec",
+        "npm_config_cache": "C:\\Users\\132014\\AppData\\Local\\npm-cache",
+        "npm_config_globalconfig": "C:\\Users\\132014\\node-v24.11.1-win-x64\\etc\\npmrc",
+        "npm_config_global_prefix": "C:\\Users\\132014\\node-v24.11.1-win-x64",
+        "npm_config_init_module": "C:\\Users\\132014\\.npm-init.js",
+        "npm_config_local_prefix": "C:\\Nitin\\CatMapperApp",
+        "npm_config_node_gyp": "C:\\Users\\132014\\node-v24.11.1-win-x64\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js",
+        "npm_config_noproxy": "",
+        "npm_config_npm_version": "11.6.2",
+        "npm_config_prefix": "C:\\Users\\132014\\node-v24.11.1-win-x64",
+        "npm_config_strict_ssl": "",
+        "npm_config_userconfig": "C:\\Users\\132014\\.npmrc",
+        "npm_config_user_agent": "npm/undefined node/v24.3.0 win32 x64 workspaces/false",
+        "npm_execpath": "C:\\Users\\132014\\node-v24.11.1-win-x64\\node_modules\\npm\\bin\\npm-cli.js",
+        "npm_lifecycle_event": "npx",
+        "npm_lifecycle_script": "playwright",
+        "npm_node_execpath": "C:\\Users\\132014\\node-v24.11.1-win-x64\\node.exe",
+        "npm_package_json": "C:\\Nitin\\CatMapperApp\\package.json",
+        "npm_package_name": "catmapperapp",
+        "npm_package_version": "1.0.0",
+        "NUMBER_OF_PROCESSORS": "8",
+        "OneDrive": "C:\\Users\\132014\\OneDrive - TCS COM PROD",
+        "OneDriveCommercial": "C:\\Users\\132014\\OneDrive - TCS COM PROD",
+        "OPENCODE": "1",
+        "OPENCODE_CALLER": "vscode",
+        "OPENCODE_PID": "19620",
+        "OS": "Windows_NT",
+        "PATH": "C:\\Nitin\\CatMapperApp\\node_modules\\.bin;C:\\Nitin\\CatMapperApp\\node_modules\\.bin;C:\\Nitin\\node_modules\\.bin;C:\\node_modules\\.bin;C:\\Users\\132014\\node-v24.11.1-win-x64\\node_modules\\npm\\node_modules\\@npmcli\\run-script\\lib\\node-gyp-bin;C:\\Users\\132014\\AppData\\Local\\Programs\\Git\\mingw64\\bin;C:\\Users\\132014\\AppData\\Local\\Programs\\Git\\usr\\bin;C:\\Users\\132014\\bin;C:\\Users\\132014\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand;C:\\Users\\132014\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;C:\\Program Files\\ServiceNow\\agent-client-collector\\bin;C:\\Program Files\\ServiceNow\\agent-client-collector\\embedded\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;C:\\Program Files\\ServiceNow\\agent-client-collector\\bin;C:\\Program Files\\ServiceNow\\agent-client-collector\\embedded\\bin;C:\\Users\\132014\\node-v24.11.1-win-x64;C:\\Users\\132014\\.local\\bin;C:\\Users\\132014\\AppData\\Local\\Programs\\Git\\cmd;C:\\Nitin\\vscode\\bin",
+        "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL",
+        "PLINK_PROTOCOL": "ssh",
+        "PROCESSOR_ARCHITECTURE": "AMD64",
+        "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 140 Stepping 1, GenuineIntel",
+        "PROCESSOR_LEVEL": "6",
+        "PROCESSOR_REVISION": "8c01",
+        "ProgramData": "C:\\ProgramData",
+        "PROGRAMFILES": "C:\\Program Files",
+        "ProgramFiles(x86)": "C:\\Program Files (x86)",
+        "ProgramW6432": "C:\\Program Files",
+        "PROMPT": "$P$G",
+        "PSModulePath": "C:\\Users\\132014\\OneDrive - TCS COM PROD\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules;C:\\Program Files (x86)\\Microsoft Purview Information Protection\\Powershell",
+        "PUBLIC": "C:\\Users\\Public",
+        "PWD": "C:/Nitin/CatMapperApp",
+        "QIP10324": "0",
+        "serial": "GQSJ0B3",
+        "SESSIONNAME": "Console",
+        "SHLVL": "1",
+        "SN_AGENT_HOME_DIR": "C:\\Program Files\\ServiceNow\\agent-client-collector\\",
+        "SYSTEMDRIVE": "C:",
+        "SYSTEMROOT": "C:\\WINDOWS",
+        "TEMP": "C:\\Users\\132014\\AppData\\Local\\Temp",
+        "TERM": "xterm-256color",
+        "TERM_PROGRAM": "vscode",
+        "TERM_PROGRAM_VERSION": "1.129.0",
+        "TMP": "C:\\Users\\132014\\AppData\\Local\\Temp",
+        "type": "Latitude",
+        "USERDNSDOMAIN": "India.TCS.com",
+        "USERDOMAIN": "INDIA",
+        "USERDOMAIN_ROAMINGPROFILE": "INDIA",
+        "USERNAME": "132014",
+        "USERPROFILE": "C:\\Users\\132014",
+        "VSCODE_GIT_ASKPASS_EXTRA_ARGS": "",
+        "VSCODE_GIT_ASKPASS_MAIN": "c:\\Nitin\\vscode\\125df4672b\\resources\\app\\extensions\\git\\dist\\askpass-main.js",
+        "VSCODE_GIT_ASKPASS_NODE": "C:\\Nitin\\vscode\\Code.exe",
+        "VSCODE_GIT_IPC_HANDLE": "\\\\.\\pipe\\vscode-git-7b459264c0-sock",
+        "VSCODE_INJECTION": "1",
+        "VSCODE_PYTHON_AUTOACTIVATE_GUARD": "1",
+        "WINDIR": "C:\\WINDOWS",
+        "ZES_ENABLE_SYSMAN": "1",
+        "_": "C:/Users/132014/node-v24.11.1-win-x64/node.exe",
+        "_EXTENSION_OPENCODE_PORT": "26519",
+        "__PSLockDownPolicy": "0",
+        "KV_REST_API_URL": "",
+        "KV_REST_API_TOKEN": "",
+        "UPSTASH_REDIS_REST_URL": "",
+        "UPSTASH_REDIS_REST_TOKEN": ""
+      }
+    }
+  },
+  "suites": [
+    {
+      "title": "01-ui-visibility.spec.ts",
+      "file": "01-ui-visibility.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "UI Element Visibility Assertions",
+          "file": "01-ui-visibility.spec.ts",
+          "line": 5,
+          "column": 6,
+          "specs": [
+            {
+              "title": "01 - Page loads with correct title",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6273,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:37:27.891Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9908270961d95efbb54c-089ef21c66c0819282e4",
+              "file": "01-ui-visibility.spec.ts",
+              "line": 7,
+              "column": 7
+            },
+            {
+              "title": "02 - Sidebar is present with correct layout",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5016,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:37:36.013Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9908270961d95efbb54c-aa119c4d66a9a866c587",
+              "file": "01-ui-visibility.spec.ts",
+              "line": 12,
+              "column": 7
+            },
+            {
+              "title": "03 - All 66 category buttons render in a 4-column grid",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5248,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:37:41.078Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9908270961d95efbb54c-09c6ebba89010b109336",
+              "file": "01-ui-visibility.spec.ts",
+              "line": 20,
+              "column": 7
+            },
+            {
+              "title": "04 - Header contains all expected elements",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5986,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:37:46.364Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9908270961d95efbb54c-e7c62f821ced1285ce68",
+              "file": "01-ui-visibility.spec.ts",
+              "line": 28,
+              "column": 7
+            },
+            {
+              "title": "05 - Default page is 23 with first project selected",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4859,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:37:52.382Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9908270961d95efbb54c-3627e989d56136dfedf8",
+              "file": "01-ui-visibility.spec.ts",
+              "line": 39,
+              "column": 7
+            },
+            {
+              "title": "06 - Uncategorized asterisk visible for new projects",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5137,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:37:57.268Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9908270961d95efbb54c-7b7ba5ce243e98fef180",
+              "file": "01-ui-visibility.spec.ts",
+              "line": 48,
+              "column": 7
+            },
+            {
+              "title": "07 - Export Data button has green styling",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5063,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:38:02.437Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9908270961d95efbb54c-391d658d12a4e7e00f4b",
+              "file": "01-ui-visibility.spec.ts",
+              "line": 56,
+              "column": 7
+            },
+            {
+              "title": "08 - Delete All Data button has red styling",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5558,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:38:07.533Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9908270961d95efbb54c-2dec8a9163af8936fe92",
+              "file": "01-ui-visibility.spec.ts",
+              "line": 62,
+              "column": 7
+            },
+            {
+              "title": "09 - All categories start unchecked",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 9685,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:38:13.130Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9908270961d95efbb54c-f87c2f7acb1c3f64b19c",
+              "file": "01-ui-visibility.spec.ts",
+              "line": 68,
+              "column": 7
+            },
+            {
+              "title": "10 - Prev page does not go below first page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5648,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:38:22.851Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9908270961d95efbb54c-9a4293e4021d60ae6e33",
+              "file": "01-ui-visibility.spec.ts",
+              "line": 80,
+              "column": 7
+            },
+            {
+              "title": "11 - Next page on last page does not go above last page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "slow",
+                      "location": {
+                        "file": "C:\\Nitin\\CatMapperApp\\tests\\specs\\01-ui-visibility.spec.ts",
+                        "line": 90,
+                        "column": 10
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 41928,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:38:28.537Z",
+                      "annotations": [
+                        {
+                          "type": "slow",
+                          "location": {
+                            "file": "C:\\Nitin\\CatMapperApp\\tests\\specs\\01-ui-visibility.spec.ts",
+                            "line": 90,
+                            "column": 10
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9908270961d95efbb54c-8976233966f79d9fcd44",
+              "file": "01-ui-visibility.spec.ts",
+              "line": 89,
+              "column": 7
+            },
+            {
+              "title": "12 - Category buttons are clickable and have hover effect",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 9615,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:39:10.500Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9908270961d95efbb54c-9826fac4adfbfeb45fe3",
+              "file": "01-ui-visibility.spec.ts",
+              "line": 113,
+              "column": 7
+            },
+            {
+              "title": "13 - All 66 category labels are present in the grid",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7971,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:39:20.142Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9908270961d95efbb54c-b841bd279627d393c24f",
+              "file": "01-ui-visibility.spec.ts",
+              "line": 121,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "02-happy-path.spec.ts",
+      "file": "02-happy-path.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Happy Path — Complete User Flows",
+          "file": "02-happy-path.spec.ts",
+          "line": 6,
+          "column": 6,
+          "specs": [
+            {
+              "title": "01 - Select categories on single-project page and verify persistence",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 13416,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:39:28.178Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "65bb4fa739d09a8ca407-0f8282d4a9c2e0c3660d",
+              "file": "02-happy-path.spec.ts",
+              "line": 12,
+              "column": 7
+            },
+            {
+              "title": "02 - Navigate multi-project page, switch projects, verify isolated state",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 12775,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:39:41.629Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "65bb4fa739d09a8ca407-7cdea4146ab4992cf0aa",
+              "file": "02-happy-path.spec.ts",
+              "line": 32,
+              "column": 7
+            },
+            {
+              "title": "03 - Pagination forward and backward",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6625,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:39:54.444Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "65bb4fa739d09a8ca407-15858d8263a591965f67",
+              "file": "02-happy-path.spec.ts",
+              "line": 65,
+              "column": 7
+            },
+            {
+              "title": "04 - Pagination with project state preservation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6291,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:40:01.104Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "65bb4fa739d09a8ca407-632f50e669167a0af7ab",
+              "file": "02-happy-path.spec.ts",
+              "line": 86,
+              "column": 7
+            },
+            {
+              "title": "05 - Rename project successfully",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 11480,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:40:07.429Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "65bb4fa739d09a8ca407-019bc5d953d8237cf9c5",
+              "file": "02-happy-path.spec.ts",
+              "line": 106,
+              "column": 7
+            },
+            {
+              "title": "06 - Show Page overlay opens and closes",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6416,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:40:18.941Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "65bb4fa739d09a8ca407-43d1ec0617b6a7dd21a8",
+              "file": "02-happy-path.spec.ts",
+              "line": 129,
+              "column": 7
+            },
+            {
+              "title": "07 - Export Data downloads JSON via UI — exact content match",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 9315,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:40:25.387Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "65bb4fa739d09a8ca407-e306adf45fe847018503",
+              "file": "02-happy-path.spec.ts",
+              "line": 144,
+              "column": 7
+            },
+            {
+              "title": "08 - Delete All Data then verify clean state",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 9375,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:40:34.734Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "65bb4fa739d09a8ca407-020bc1283f004096fc77",
+              "file": "02-happy-path.spec.ts",
+              "line": 189,
+              "column": 7
+            },
+            {
+              "title": "09 - Full end-to-end workflow with export content validation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 12819,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:40:44.144Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "65bb4fa739d09a8ca407-e3c1a785bfdf4a4f7bca",
+              "file": "02-happy-path.spec.ts",
+              "line": 205,
+              "column": 7
+            },
+            {
+              "title": "10 - Export with multi-page and multi-project categories — exact content match",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "slow",
+                      "location": {
+                        "file": "C:\\Nitin\\CatMapperApp\\tests\\specs\\02-happy-path.spec.ts",
+                        "line": 256,
+                        "column": 10
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 26755,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:40:57.002Z",
+                      "annotations": [
+                        {
+                          "type": "slow",
+                          "location": {
+                            "file": "C:\\Nitin\\CatMapperApp\\tests\\specs\\02-happy-path.spec.ts",
+                            "line": 256,
+                            "column": 10
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "65bb4fa739d09a8ca407-9276ca2e8541ce56adf5",
+              "file": "02-happy-path.spec.ts",
+              "line": 255,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "03-boundary-negative.spec.ts",
+      "file": "03-boundary-negative.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Boundary and Negative Testing",
+          "file": "03-boundary-negative.spec.ts",
+          "line": 8,
+          "column": 6,
+          "specs": [
+            {
+              "title": "01 - Navigate to first page, click Prev repeatedly — page stays at 23",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5555,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:41:23.822Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c955d1d42ee542bc2f8b-bfa98f7303db396f0dd6",
+              "file": "03-boundary-negative.spec.ts",
+              "line": 12,
+              "column": 7
+            },
+            {
+              "title": "02 - Navigate to last page, click Next repeatedly — page stays at 289",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "slow",
+                      "location": {
+                        "file": "C:\\Nitin\\CatMapperApp\\tests\\specs\\03-boundary-negative.spec.ts",
+                        "line": 28,
+                        "column": 10
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 41151,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:41:29.407Z",
+                      "annotations": [
+                        {
+                          "type": "slow",
+                          "location": {
+                            "file": "C:\\Nitin\\CatMapperApp\\tests\\specs\\03-boundary-negative.spec.ts",
+                            "line": 28,
+                            "column": 10
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c955d1d42ee542bc2f8b-5a8c68123401aa23e8ed",
+              "file": "03-boundary-negative.spec.ts",
+              "line": 27,
+              "column": 7
+            },
+            {
+              "title": "03 - Rapidly click Next 10 times — system stays stable",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6661,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:42:10.588Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c955d1d42ee542bc2f8b-74ddc826d982169bf2fb",
+              "file": "03-boundary-negative.spec.ts",
+              "line": 50,
+              "column": 7
+            },
+            {
+              "title": "04 - Toggle same category twice (on then off) — final state unchecked",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5962,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:42:17.277Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c955d1d42ee542bc2f8b-520ce9b4aa8a2482333b",
+              "file": "03-boundary-negative.spec.ts",
+              "line": 64,
+              "column": 7
+            },
+            {
+              "title": "05 - Toggle all 66 categories on one project — all checked",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "location": {
+                        "file": "C:\\Nitin\\CatMapperApp\\tests\\specs\\03-boundary-negative.spec.ts",
+                        "line": 79,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:42:23.269Z",
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "C:\\Nitin\\CatMapperApp\\tests\\specs\\03-boundary-negative.spec.ts",
+                            "line": 79,
+                            "column": 8
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "c955d1d42ee542bc2f8b-d5deebc882352dd7d213",
+              "file": "03-boundary-negative.spec.ts",
+              "line": 79,
+              "column": 8
+            },
+            {
+              "title": "06 - Toggle all 66 on then all 66 off — final state all unchecked",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "location": {
+                        "file": "C:\\Nitin\\CatMapperApp\\tests\\specs\\03-boundary-negative.spec.ts",
+                        "line": 102,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:42:23.270Z",
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "C:\\Nitin\\CatMapperApp\\tests\\specs\\03-boundary-negative.spec.ts",
+                            "line": 102,
+                            "column": 8
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "c955d1d42ee542bc2f8b-9030b80c37b7a6dbdbea",
+              "file": "03-boundary-negative.spec.ts",
+              "line": 102,
+              "column": 8
+            },
+            {
+              "title": "07 - Rename to empty string — original name preserved",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4507,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:42:23.270Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c955d1d42ee542bc2f8b-da9239b468822221180e",
+              "file": "03-boundary-negative.spec.ts",
+              "line": 130,
+              "column": 7
+            },
+            {
+              "title": "08 - Rename to long string — handled gracefully",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4384,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:42:27.803Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c955d1d42ee542bc2f8b-e4930bfd9b67e2101cb2",
+              "file": "03-boundary-negative.spec.ts",
+              "line": 146,
+              "column": 7
+            },
+            {
+              "title": "09 - Rename with special characters — handled gracefully",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4722,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:42:32.214Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c955d1d42ee542bc2f8b-9fd76768cc0e737cf62e",
+              "file": "03-boundary-negative.spec.ts",
+              "line": 163,
+              "column": 7
+            },
+            {
+              "title": "10 - Delete All Data when no data exists — no error",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 12556,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:42:36.965Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c955d1d42ee542bc2f8b-6bc26b7ca49dff719dca",
+              "file": "03-boundary-negative.spec.ts",
+              "line": 177,
+              "column": 7
+            },
+            {
+              "title": "11 - Export when no data exists — all pages present with empty categories",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7254,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:42:49.554Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c955d1d42ee542bc2f8b-fc037aa05376b8198dc4",
+              "file": "03-boundary-negative.spec.ts",
+              "line": 188,
+              "column": 7
+            },
+            {
+              "title": "12 - Multi-project page with 6 projects — switch between all",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "slow",
+                      "location": {
+                        "file": "C:\\Nitin\\CatMapperApp\\tests\\specs\\03-boundary-negative.spec.ts",
+                        "line": 215,
+                        "column": 10
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 39855,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:42:56.842Z",
+                      "annotations": [
+                        {
+                          "type": "slow",
+                          "location": {
+                            "file": "C:\\Nitin\\CatMapperApp\\tests\\specs\\03-boundary-negative.spec.ts",
+                            "line": 215,
+                            "column": 10
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c955d1d42ee542bc2f8b-5238303e597333a52864",
+              "file": "03-boundary-negative.spec.ts",
+              "line": 214,
+              "column": 7
+            },
+            {
+              "title": "13 - Verify page counter accuracy across multiple navigations",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6190,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:43:36.728Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c955d1d42ee542bc2f8b-f0159918eb1798c496ec",
+              "file": "03-boundary-negative.spec.ts",
+              "line": 236,
+              "column": 7
+            },
+            {
+              "title": "14 - Rename project then navigate away and back — name persists",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5085,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:43:42.947Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c955d1d42ee542bc2f8b-3486495b0a82c5ddd94a",
+              "file": "03-boundary-negative.spec.ts",
+              "line": 248,
+              "column": 7
+            },
+            {
+              "title": "15 - Show Page overlay should cover the category grid [BUG: overlay only covers header]",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 9966,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).not.\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.grid.grid-cols-4').getByRole('button', { name: /^[✓ ]*Residential$/ })\nExpected: not visible\nReceived: visible\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"not toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.grid.grid-cols-4').getByRole('button', { name: /^[✓ ]*Residential$/ })\u001b[22m\n\u001b[2m    13 × locator resolved to <button class=\"flex items-center gap-2 px-2 py-1 rounded text-xs border transition-colors bg-white border-gray-300 text-gray-700 hover:bg-gray-100\">…</button>\u001b[22m\n\u001b[2m       - unexpected value \"visible\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).not.\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.grid.grid-cols-4').getByRole('button', { name: /^[✓ ]*Residential$/ })\nExpected: not visible\nReceived: visible\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"not toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.grid.grid-cols-4').getByRole('button', { name: /^[✓ ]*Residential$/ })\u001b[22m\n\u001b[2m    13 × locator resolved to <button class=\"flex items-center gap-2 px-2 py-1 rounded text-xs border transition-colors bg-white border-gray-300 text-gray-700 hover:bg-gray-100\">…</button>\u001b[22m\n\u001b[2m       - unexpected value \"visible\"\u001b[22m\n\n    at C:\\Nitin\\CatMapperApp\\tests\\specs\\03-boundary-negative.spec.ts:278:30",
+                        "location": {
+                          "file": "C:\\Nitin\\CatMapperApp\\tests\\specs\\03-boundary-negative.spec.ts",
+                          "column": 30,
+                          "line": 278
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 276 |\u001b[39m\n \u001b[90m 277 |\u001b[39m     \u001b[36mconst\u001b[39m catBtn \u001b[33m=\u001b[39m categoryButton(page\u001b[33m,\u001b[39m \u001b[32m'Residential'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 278 |\u001b[39m     \u001b[36mawait\u001b[39m expect(catBtn)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 279 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 280 |\u001b[39m\n \u001b[90m 281 |\u001b[39m   test(\u001b[32m'16 - Navigate to page with no image — Show Page handles gracefully'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Nitin\\CatMapperApp\\tests\\specs\\03-boundary-negative.spec.ts",
+                            "column": 30,
+                            "line": 278
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).not.\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.grid.grid-cols-4').getByRole('button', { name: /^[✓ ]*Residential$/ })\nExpected: not visible\nReceived: visible\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"not toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.grid.grid-cols-4').getByRole('button', { name: /^[✓ ]*Residential$/ })\u001b[22m\n\u001b[2m    13 × locator resolved to <button class=\"flex items-center gap-2 px-2 py-1 rounded text-xs border transition-colors bg-white border-gray-300 text-gray-700 hover:bg-gray-100\">…</button>\u001b[22m\n\u001b[2m       - unexpected value \"visible\"\u001b[22m\n\n\n  276 |\n  277 |     const catBtn = categoryButton(page, 'Residential');\n> 278 |     await expect(catBtn).not.toBeVisible();\n      |                              ^\n  279 |   });\n  280 |\n  281 |   test('16 - Navigate to page with no image — Show Page handles gracefully', async ({ page }) => {\n    at C:\\Nitin\\CatMapperApp\\tests\\specs\\03-boundary-negative.spec.ts:278:30"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:43:48.061Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Nitin\\CatMapperApp\\test-results\\03-boundary-negative-Bound-98b58-overlay-only-covers-header--chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Nitin\\CatMapperApp\\test-results\\03-boundary-negative-Bound-98b58-overlay-only-covers-header--chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Nitin\\CatMapperApp\\test-results\\03-boundary-negative-Bound-98b58-overlay-only-covers-header--chromium\\error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Nitin\\CatMapperApp\\test-results\\03-boundary-negative-Bound-98b58-overlay-only-covers-header--chromium\\trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Nitin\\CatMapperApp\\tests\\specs\\03-boundary-negative.spec.ts",
+                        "column": 30,
+                        "line": 278
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "c955d1d42ee542bc2f8b-e60a7f83eb10451eb451",
+              "file": "03-boundary-negative.spec.ts",
+              "line": 269,
+              "column": 7
+            },
+            {
+              "title": "16 - Navigate to page with no image — Show Page handles gracefully",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "slow",
+                      "location": {
+                        "file": "C:\\Nitin\\CatMapperApp\\tests\\specs\\03-boundary-negative.spec.ts",
+                        "line": 282,
+                        "column": 10
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 35347,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:44:01.563Z",
+                      "annotations": [
+                        {
+                          "type": "slow",
+                          "location": {
+                            "file": "C:\\Nitin\\CatMapperApp\\tests\\specs\\03-boundary-negative.spec.ts",
+                            "line": 282,
+                            "column": 10
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c955d1d42ee542bc2f8b-b15e3310e5b53e54269e",
+              "file": "03-boundary-negative.spec.ts",
+              "line": 281,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "04-destructive.spec.ts",
+      "file": "04-destructive.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Destructive Testing",
+          "file": "04-destructive.spec.ts",
+          "line": 8,
+          "column": 6,
+          "specs": [
+            {
+              "title": "01 - Delete All Data after toggling categories on 3 different pages",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "slow",
+                      "location": {
+                        "file": "C:\\Nitin\\CatMapperApp\\tests\\specs\\04-destructive.spec.ts",
+                        "line": 24,
+                        "column": 10
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 24018,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:44:38.588Z",
+                      "annotations": [
+                        {
+                          "type": "slow",
+                          "location": {
+                            "file": "C:\\Nitin\\CatMapperApp\\tests\\specs\\04-destructive.spec.ts",
+                            "line": 24,
+                            "column": 10
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0d8a579ca895e97c428d-5ae1811365d12e607927",
+              "file": "04-destructive.spec.ts",
+              "line": 23,
+              "column": 7
+            },
+            {
+              "title": "02 - Delete All Data after renaming 2 projects — renames also cleared",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 11705,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:45:02.641Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0d8a579ca895e97c428d-f6bc86cc1c7c99c79263",
+              "file": "04-destructive.spec.ts",
+              "line": 58,
+              "column": 7
+            },
+            {
+              "title": "03 - Rapid double-click Delete All Data — no error",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 10751,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:45:14.384Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0d8a579ca895e97c428d-f94710103f18daed8437",
+              "file": "04-destructive.spec.ts",
+              "line": 88,
+              "column": 7
+            },
+            {
+              "title": "04 - Delete All Data then Export — all pages present with empty categories via UI download",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 11351,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:45:25.169Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0d8a579ca895e97c428d-fd4d1d4b142553cda1cb",
+              "file": "04-destructive.spec.ts",
+              "line": 104,
+              "column": 7
+            },
+            {
+              "title": "05 - Toggle categories, refresh, verify auto-save persistence",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 11211,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:45:36.557Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0d8a579ca895e97c428d-09486894fe783af2ca99",
+              "file": "04-destructive.spec.ts",
+              "line": 136,
+              "column": 7
+            },
+            {
+              "title": "06 - Delete All Data on multi-project page with mixed state — all reset",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 19601,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:45:47.805Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0d8a579ca895e97c428d-4ee84a362e533a5b0a0e",
+              "file": "04-destructive.spec.ts",
+              "line": 159,
+              "column": 7
+            },
+            {
+              "title": "07 - Delete All clicked through overlay with force:true — overlay does not interfere",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "location": {
+                        "file": "C:\\Nitin\\CatMapperApp\\tests\\specs\\04-destructive.spec.ts",
+                        "line": 188,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:46:07.451Z",
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "C:\\Nitin\\CatMapperApp\\tests\\specs\\04-destructive.spec.ts",
+                            "line": 188,
+                            "column": 8
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "0d8a579ca895e97c428d-9613e5028bab33a99d2d",
+              "file": "04-destructive.spec.ts",
+              "line": 188,
+              "column": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "05-visual-regression.spec.ts",
+      "file": "05-visual-regression.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Visual Regression Testing",
+          "file": "05-visual-regression.spec.ts",
+          "line": 7,
+          "column": 6,
+          "specs": [
+            {
+              "title": "01 - Initial page load (page 23)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 9878,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:46:07.474Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0e57951c95d16effd2fa-3cdd74afc783590da917",
+              "file": "05-visual-regression.spec.ts",
+              "line": 11,
+              "column": 7
+            },
+            {
+              "title": "02 - Categories selected on project",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6991,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:46:17.386Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0e57951c95d16effd2fa-b0107ee09a0b3df48e43",
+              "file": "05-visual-regression.spec.ts",
+              "line": 21,
+              "column": 7
+            },
+            {
+              "title": "03 - Multi-project page (page 61)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "slow",
+                      "location": {
+                        "file": "C:\\Nitin\\CatMapperApp\\tests\\specs\\05-visual-regression.spec.ts",
+                        "line": 34,
+                        "column": 10
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 10792,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:46:24.410Z",
+                      "annotations": [
+                        {
+                          "type": "slow",
+                          "location": {
+                            "file": "C:\\Nitin\\CatMapperApp\\tests\\specs\\05-visual-regression.spec.ts",
+                            "line": 34,
+                            "column": 10
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0e57951c95d16effd2fa-9ff64938f8b49d0ea330",
+              "file": "05-visual-regression.spec.ts",
+              "line": 33,
+              "column": 7
+            },
+            {
+              "title": "04 - Show Page overlay open",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8803,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:46:35.238Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0e57951c95d16effd2fa-aa1b3719d97b6a010920",
+              "file": "05-visual-regression.spec.ts",
+              "line": 49,
+              "column": 7
+            },
+            {
+              "title": "05 - Project rename inline editing",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6855,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:46:44.077Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0e57951c95d16effd2fa-c0f0169be8dc18e148b9",
+              "file": "05-visual-regression.spec.ts",
+              "line": 66,
+              "column": 7
+            },
+            {
+              "title": "06 - After Delete All Data — clean state",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "slow",
+                      "location": {
+                        "file": "C:\\Nitin\\CatMapperApp\\tests\\specs\\05-visual-regression.spec.ts",
+                        "line": 81,
+                        "column": 10
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 12421,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:46:50.962Z",
+                      "annotations": [
+                        {
+                          "type": "slow",
+                          "location": {
+                            "file": "C:\\Nitin\\CatMapperApp\\tests\\specs\\05-visual-regression.spec.ts",
+                            "line": 81,
+                            "column": 10
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0e57951c95d16effd2fa-a7a7cea989f9b3b36a8e",
+              "file": "05-visual-regression.spec.ts",
+              "line": 80,
+              "column": 7
+            },
+            {
+              "title": "07 - All 66 categories toggled on",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "slow",
+                      "location": {
+                        "file": "C:\\Nitin\\CatMapperApp\\tests\\specs\\05-visual-regression.spec.ts",
+                        "line": 99,
+                        "column": 10
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 18809,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:47:03.419Z",
+                      "annotations": [
+                        {
+                          "type": "slow",
+                          "location": {
+                            "file": "C:\\Nitin\\CatMapperApp\\tests\\specs\\05-visual-regression.spec.ts",
+                            "line": 99,
+                            "column": 10
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0e57951c95d16effd2fa-806fe78a35357cec38e7",
+              "file": "05-visual-regression.spec.ts",
+              "line": 98,
+              "column": 7
+            },
+            {
+              "title": "08 - Mobile viewport (375x812)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7319,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:47:22.261Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0e57951c95d16effd2fa-1efafd79af29c4e9c7fb",
+              "file": "05-visual-regression.spec.ts",
+              "line": 111,
+              "column": 7
+            },
+            {
+              "title": "09 - Tablet viewport (1024x768)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7329,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:47:29.613Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0e57951c95d16effd2fa-b8b7a1378930ca2916bf",
+              "file": "05-visual-regression.spec.ts",
+              "line": 122,
+              "column": 7
+            },
+            {
+              "title": "10 - Sidebar with many projects (page 235 — 6 projects)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "slow",
+                      "location": {
+                        "file": "C:\\Nitin\\CatMapperApp\\tests\\specs\\05-visual-regression.spec.ts",
+                        "line": 134,
+                        "column": 10
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 61819,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:47:36.977Z",
+                      "annotations": [
+                        {
+                          "type": "slow",
+                          "location": {
+                            "file": "C:\\Nitin\\CatMapperApp\\tests\\specs\\05-visual-regression.spec.ts",
+                            "line": 134,
+                            "column": 10
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0e57951c95d16effd2fa-b444045115650317b7f2",
+              "file": "05-visual-regression.spec.ts",
+              "line": 133,
+              "column": 7
+            },
+            {
+              "title": "11 - Renamed project with special characters",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6040,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:48:38.897Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0e57951c95d16effd2fa-f398ffc8d4ea16ebeb73",
+              "file": "05-visual-regression.spec.ts",
+              "line": 149,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "06-enhanced-features.spec.ts",
+      "file": "06-enhanced-features.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "V4 project mutations and data transfer",
+          "file": "06-enhanced-features.spec.ts",
+          "line": 163,
+          "column": 6,
+          "specs": [
+            {
+              "title": "buttons are visible, ordered, and styled",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5635,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:48:45.035Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "37f8ed359034d178e1f7-10a9d21924a184926f48",
+              "file": "06-enhanced-features.spec.ts",
+              "line": 168,
+              "column": 7
+            },
+            {
+              "title": "new project is selected immediately and starts empty",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 14090,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:48:50.704Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "37f8ed359034d178e1f7-a07256b0eda6595d3bf7",
+              "file": "06-enhanced-features.spec.ts",
+              "line": 183,
+              "column": 7
+            },
+            {
+              "title": "effective duplicate name is rejected without category loss",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6496,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:49:04.837Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "37f8ed359034d178e1f7-e60462db66a7da9c0eca",
+              "file": "06-enhanced-features.spec.ts",
+              "line": 202,
+              "column": 7
+            },
+            {
+              "title": "duplicate add API returns conflict without erasing categories",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7607,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:49:11.421Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "37f8ed359034d178e1f7-b8ad0935302159b086be",
+              "file": "06-enhanced-features.spec.ts",
+              "line": 222,
+              "column": 7
+            },
+            {
+              "title": "failed add rolls back optimistic state",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5880,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:49:19.081Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "37f8ed359034d178e1f7-ddae1c6fa8cc52b00fd4",
+              "file": "06-enhanced-features.spec.ts",
+              "line": 233,
+              "column": 7
+            },
+            {
+              "title": "added project can be renamed, reloaded, and deleted",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 16765,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:49:25.006Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "37f8ed359034d178e1f7-1c3bb2dbf04362d8cb27",
+              "file": "06-enhanced-features.spec.ts",
+              "line": 252,
+              "column": 7
+            },
+            {
+              "title": "deleting a lone canonical project clears UI and persistence",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6445,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:49:41.853Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "37f8ed359034d178e1f7-e2991d5d106fd25da109",
+              "file": "06-enhanced-features.spec.ts",
+              "line": 274,
+              "column": 7
+            },
+            {
+              "title": "failed delete restores project and categories",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6560,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:49:48.363Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "37f8ed359034d178e1f7-2a2a7a3ed216f6251842",
+              "file": "06-enhanced-features.spec.ts",
+              "line": 284,
+              "column": 7
+            },
+            {
+              "title": "fresh export contains every canonical page and project",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6773,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:49:54.989Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "37f8ed359034d178e1f7-e20ecd2fcbf61d46f800",
+              "file": "06-enhanced-features.spec.ts",
+              "line": 306,
+              "column": 7
+            },
+            {
+              "title": "V4 export restores renames, additions, and categories exactly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "slow",
+                      "location": {
+                        "file": "C:\\Nitin\\CatMapperApp\\tests\\specs\\06-enhanced-features.spec.ts",
+                        "line": 319,
+                        "column": 10
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 14845,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:50:01.830Z",
+                      "annotations": [
+                        {
+                          "type": "slow",
+                          "location": {
+                            "file": "C:\\Nitin\\CatMapperApp\\tests\\specs\\06-enhanced-features.spec.ts",
+                            "line": 319,
+                            "column": 10
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "37f8ed359034d178e1f7-0e6cbf0d61d14534dbd6",
+              "file": "06-enhanced-features.spec.ts",
+              "line": 318,
+              "column": 7
+            },
+            {
+              "title": "legacy CategoryData import remains supported",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6015,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:50:16.729Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "37f8ed359034d178e1f7-496beaceebb263e6c2fc",
+              "file": "06-enhanced-features.spec.ts",
+              "line": 354,
+              "column": 7
+            },
+            {
+              "title": "malformed and structurally invalid files do not mutate data",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4742,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:50:22.799Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "37f8ed359034d178e1f7-0cafb1689242d74e4ce6",
+              "file": "06-enhanced-features.spec.ts",
+              "line": 369,
+              "column": 7
+            },
+            {
+              "title": "import HTTP error is surfaced and preserves state",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5515,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:50:27.599Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "37f8ed359034d178e1f7-4a086265d2bac937c053",
+              "file": "06-enhanced-features.spec.ts",
+              "line": 389,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "07-grouped-view.spec.ts",
+      "file": "07-grouped-view.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Grouped Categories View",
+          "file": "07-grouped-view.spec.ts",
+          "line": 8,
+          "column": 6,
+          "specs": [
+            {
+              "title": "01 - Sorted/Grouped toggle renders between Next Page and Show Page and switches without reload",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4498,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:50:33.187Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "98d5bb7f2720fc1931cf-5d7207eeb50b33bb57c2",
+              "file": "07-grouped-view.spec.ts",
+              "line": 12,
+              "column": 7
+            },
+            {
+              "title": "02 - Grouped view shows 8 colored sections, all 66 cards, black text",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5143,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:50:37.723Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "98d5bb7f2720fc1931cf-9bc7f6ecf8ab9bf2f688",
+              "file": "07-grouped-view.spec.ts",
+              "line": 42,
+              "column": 7
+            },
+            {
+              "title": "03 - Selection in grouped mode keeps group color and shows dark border",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4449,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:50:42.896Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "98d5bb7f2720fc1931cf-168b612221df85a21a72",
+              "file": "07-grouped-view.spec.ts",
+              "line": 69,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "08-jump-to-page.spec.ts",
+      "file": "08-jump-to-page.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Jump to page",
+          "file": "08-jump-to-page.spec.ts",
+          "line": 5,
+          "column": 6,
+          "specs": [
+            {
+              "title": "01 - Jump to a valid page navigates on Enter",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5408,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:50:47.397Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d360ca0260382076f0b2-04ae3eb4716440dd0799",
+              "file": "08-jump-to-page.spec.ts",
+              "line": 8,
+              "column": 7
+            },
+            {
+              "title": "02 - Jump to a non-existent page shows an error and keeps the page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4695,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:50:52.849Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d360ca0260382076f0b2-8c9bde493f8bee461702",
+              "file": "08-jump-to-page.spec.ts",
+              "line": 20,
+              "column": 7
+            },
+            {
+              "title": "03 - Error clears when the user edits the input again",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4847,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:50:57.600Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d360ca0260382076f0b2-ae4dddc66497108ae40d",
+              "file": "08-jump-to-page.spec.ts",
+              "line": 31,
+              "column": 7
+            },
+            {
+              "title": "04 - Single Enter after character-by-character typing navigates (no double-Enter)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4271,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-28T06:51:02.489Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d360ca0260382076f0b2-5928853f038e7771c0ff",
+              "file": "08-jump-to-page.spec.ts",
+              "line": 43,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-07-28T06:37:04.490Z",
+    "duration": 844652.143,
+    "expected": 73,
+    "skipped": 3,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

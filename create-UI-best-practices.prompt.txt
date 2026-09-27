@@ -1,0 +1,6 @@
+Pl write "ui-playwright-testing.md". I need you to write it from your experience in this session.
+Include below sections:
+1. How to setup playwright (including chrome if it worked)
+2. Dos and donts
+3. Best practices of creating test cases
+4. Lessons learned (What worked, what didnt work) in setting up and running test script successfully

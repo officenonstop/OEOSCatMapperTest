@@ -1,0 +1,86 @@
+
+> catmapperapp@1.0.0 dev
+> next dev --port 3456
+
+   ▲ Next.js 15.5.20
+   - Local:        http://localhost:3456
+   - Network:      http://192.168.172.12:3456
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 5.6s
+ ○ Compiling / ...
+ ✓ Compiled / in 15.3s (561 modules)
+ GET / 200 in 26438ms
+ GET / 200 in 2058ms
+ ○ Compiling /api/project-categories ...
+ ✓ Compiled /api/project-categories in 2.9s (586 modules)
+ GET /api/project-categories?page=23&project=The%20Promenade%20by%20the%20River 200 in 4201ms
+ GET / 200 in 1583ms
+ GET /api/project-categories?page=23&project=The%20Promenade%20by%20the%20River 200 in 52ms
+ GET /api/project-categories?page=24&project=Where%20Structure%20Meets%20Expression 200 in 45ms
+ GET /api/project-categories?page=29&project=Efficient%20Luxury 200 in 44ms
+ GET /api/project-categories?page=34&project=A%20Crescent%20That%20Shaped%20a%20Neighbourhood 200 in 38ms
+ GET /api/project-categories?page=35&project=Layered%20Luxury 200 in 22ms
+ GET /api/project-categories?page=39&project=Social%20Housing 200 in 68ms
+ GET /api/project-categories?page=43&project=Green%20Airy 200 in 29ms
+ GET /api/project-categories?page=45&project=Courtyard 200 in 24ms
+ GET /api/project-categories?page=46&project=The%20Fluid%20Urban%20Grandeur 200 in 25ms
+ GET /api/project-categories?page=50&project=The%20Vibrant%20Urban%20Promenade 200 in 18ms
+ GET /api/project-categories?page=53&project=The%20Cascade 200 in 23ms
+ GET /api/project-categories?page=54&project=In%20Density 200 in 18ms
+ GET /api/project-categories?page=56&project=Rene 200 in 18ms
+ GET /api/project-categories?page=58&project=Arial%20Panorama%20From%20Podium 200 in 22ms
+ GET /api/project-categories?page=60&project=Mingling%20Gardens 200 in 27ms
+ GET /api/project-categories?page=61&project=Meets%20the%20City 200 in 32ms
+ GET /api/project-categories?page=61&project=Refined. 200 in 22ms
+ GET /api/project-categories?page=61&project=Meets%20the%20City 200 in 43ms
+ GET /api/project-categories?page=61&project=Refined. 200 in 105ms
+ GET /api/project-categories?page=63&project=The%20Sea%20Towers 200 in 28ms
+ GET /api/project-categories?page=66&project=Royal%20Living%20On%20the%2018th%20Hole 200 in 23ms
+ GET /api/project-categories?page=68&project=Urban%20Green%20Gateway 200 in 20ms
+ GET /api/project-categories?page=69&project=Sun%20and%20Sand%20Ultra%20Luxury%20Residential%20Development 200 in 16ms
+ GET /api/project-categories?page=70&project=Stepping%20Sky%20Villas 200 in 20ms
+ GET /api/project-categories?page=69&project=Sun%20and%20Sand%20Ultra%20Luxury%20Residential%20Development 200 in 27ms
+ GET /api/project-categories?page=68&project=Urban%20Green%20Gateway 200 in 25ms
+ GET /api/project-categories?page=66&project=Royal%20Living%20On%20the%2018th%20Hole 200 in 26ms
+ GET /api/project-categories?page=63&project=The%20Sea%20Towers 200 in 27ms
+ GET /api/project-categories?page=61&project=Meets%20the%20City 200 in 29ms
+ GET /api/project-categories?page=60&project=Mingling%20Gardens 200 in 24ms
+ GET /api/project-categories?page=58&project=Arial%20Panorama%20From%20Podium 200 in 25ms
+ GET /api/project-categories?page=56&project=Rene 200 in 34ms
+ GET /api/project-categories?page=54&project=In%20Density 200 in 30ms
+ GET /api/project-categories?page=53&project=The%20Cascade 200 in 141ms
+ GET /api/project-categories?page=50&project=The%20Vibrant%20Urban%20Promenade 200 in 48ms
+ GET /api/project-categories?page=46&project=The%20Fluid%20Urban%20Grandeur 200 in 37ms
+ GET /api/project-categories?page=45&project=Courtyard 200 in 45ms
+ GET /api/project-categories?page=43&project=Green%20Airy 200 in 193ms
+ GET /api/project-categories?page=39&project=Social%20Housing 200 in 103ms
+ GET /api/project-categories?page=35&project=Layered%20Luxury 200 in 67ms
+ GET /api/project-categories?page=34&project=A%20Crescent%20That%20Shaped%20a%20Neighbourhood 200 in 172ms
+ GET /api/project-categories?page=29&project=Efficient%20Luxury 200 in 50ms
+ GET /api/project-categories?page=34&project=A%20Crescent%20That%20Shaped%20a%20Neighbourhood 200 in 36ms
+ GET /api/project-categories?page=29&project=Efficient%20Luxury 200 in 26ms
+ GET /api/project-categories?page=24&project=Where%20Structure%20Meets%20Expression 200 in 19ms
+ GET /api/project-categories?page=29&project=Efficient%20Luxury 200 in 26ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 1402ms (577 modules)
+ GET /images/page_029.jpg 404 in 2563ms
+ GET /api/project-categories?page=34&project=A%20Crescent%20That%20Shaped%20a%20Neighbourhood 200 in 97ms
+ GET /api/project-categories?page=29&project=Efficient%20Luxury 200 in 19ms
+ GET /api/project-categories?page=34&project=A%20Crescent%20That%20Shaped%20a%20Neighbourhood 200 in 22ms
+ GET /api/project-categories?page=35&project=Layered%20Luxury 200 in 28ms
+ GET /api/project-categories?page=34&project=A%20Crescent%20That%20Shaped%20a%20Neighbourhood 200 in 74ms
+ GET /api/project-categories?page=35&project=Layered%20Luxury 200 in 31ms
+ GET /api/project-categories?page=39&project=Social%20Housing 200 in 25ms
+ PUT /api/project-categories 200 in 74ms
+ PUT /api/project-categories 200 in 56ms
+ PUT /api/project-categories 200 in 122ms
+ PUT /api/project-categories 200 in 33ms
+ GET /images/page_039.jpg 404 in 119ms
+ GET /images/page_039.jpg 404 in 128ms
+ ○ Compiling /api/project-categories/export ...
+ ✓ Compiled /api/project-categories/export in 1716ms (579 modules)
+ GET /api/project-categories/export 200 in 2121ms
+
+ Just a moment, compiling...

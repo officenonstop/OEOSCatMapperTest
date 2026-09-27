@@ -1,0 +1,22 @@
+[Global Setup] Resetting all category data...
+[Global Setup] Data reset complete.
+
+Running 13 tests using 1 worker
+
+[WebServer]  ⚠ Cross origin request detected from 127.0.0.1 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+[WebServer] Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+  ✓   1 [chromium] › tests\specs\06-enhanced-features.spec.ts:168:7 › V4 project mutations and data transfer › buttons are visible, ordered, and styled (9.0s)
+  ✓   2 [chromium] › tests\specs\06-enhanced-features.spec.ts:183:7 › V4 project mutations and data transfer › new project is selected immediately and starts empty (19.2s)
+  ✓   3 [chromium] › tests\specs\06-enhanced-features.spec.ts:202:7 › V4 project mutations and data transfer › effective duplicate name is rejected without category loss (8.9s)
+  ✓   4 [chromium] › tests\specs\06-enhanced-features.spec.ts:222:7 › V4 project mutations and data transfer › duplicate add API returns conflict without erasing categories (7.8s)
+  ✓   5 [chromium] › tests\specs\06-enhanced-features.spec.ts:233:7 › V4 project mutations and data transfer › failed add rolls back optimistic state (8.5s)
+  ✓   6 [chromium] › tests\specs\06-enhanced-features.spec.ts:252:7 › V4 project mutations and data transfer › added project can be renamed, reloaded, and deleted (24.7s)
+  ✓   7 [chromium] › tests\specs\06-enhanced-features.spec.ts:274:7 › V4 project mutations and data transfer › deleting a lone canonical project clears UI and persistence (10.0s)
+  ✓   8 [chromium] › tests\specs\06-enhanced-features.spec.ts:284:7 › V4 project mutations and data transfer › failed delete restores project and categories (9.8s)
+  ✓   9 [chromium] › tests\specs\06-enhanced-features.spec.ts:306:7 › V4 project mutations and data transfer › fresh export contains every canonical page and project (9.5s)
+  ✓  10 [chromium] › tests\specs\06-enhanced-features.spec.ts:318:7 › V4 project mutations and data transfer › V4 export restores renames, additions, and categories exactly (21.6s)
+  ✓  11 [chromium] › tests\specs\06-enhanced-features.spec.ts:354:7 › V4 project mutations and data transfer › legacy CategoryData import remains supported (9.3s)
+  ✓  12 [chromium] › tests\specs\06-enhanced-features.spec.ts:369:7 › V4 project mutations and data transfer › malformed and structurally invalid files do not mutate data (6.3s)
+  ✓  13 [chromium] › tests\specs\06-enhanced-features.spec.ts:389:7 › V4 project mutations and data transfer › import HTTP error is surfaced and preserves state (7.6s)
+
+  13 passed (3.0m)

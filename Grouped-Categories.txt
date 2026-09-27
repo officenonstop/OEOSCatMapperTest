@@ -1,0 +1,97 @@
+========================================
+GROUP 1 - Color: #d89090 (Dark Gray)
+========================================
+- Residential
+- Master Planning & Urban Design
+- Commercial & Retail
+- Hotel & Hospitality
+- Healthcare
+- Infrastructure
+- Sports
+- Institution
+- I-Euro & Social
+- Green Buildings
+- Iconic
+- Ideas
+- Social Housing
+- Sustainable
+
+========================================
+GROUP 2 - Color: #fbb787 (Orange)
+========================================
+- Redevelopment
+- SRA
+- Mixed-Use
+- High Density Residential
+- Skyscrapers
+- Govt. Aspiration Houses
+- Large Scale Integrated Township
+- High-Rise
+- Facade
+- Competition winner
+- Compact Housing
+
+========================================
+GROUP 3 - Color: #f0d595 (Beige/Tan)
+========================================
+- Villa
+- Branded Plotted Development
+- Large Scale Master Planning
+- Urban Design
+- Amenities
+- Large Scale Development
+- Luxury Housing
+- Podium Top Garden
+- Rooftop Garden
+- Vastu Housing
+
+========================================
+GROUP 4 - Color: #b5d6a0 (Charcoal Gray)
+========================================
+- Workplaces
+- Business Centers
+- Co-Working Facilities
+- IT Parks
+- SEZ
+- Commercial Mixed-Use
+- Data Centers
+- Incubation Center
+- Research & Development Center
+
+========================================
+GROUP 5 - Color: #96f4eb (Dark Orange)
+========================================
+- Hotels
+- Resort
+- Club
+- Boutique
+- Tourism
+- Amusement Park
+- Recreation
+- Naturopathy
+- Interiors
+- Waterfront
+
+========================================
+GROUP 6 - Color: #838afe (Bright Orange)
+========================================
+- Hospitals
+- Research & Diagnostic Center
+- Rehabilitation Center
+
+========================================
+GROUP 7 - Color: #C8BFA8 (Light Beige)
+========================================
+- Sports City
+- Stadium
+- Outdoor Stadium
+- Sports Club
+- Game Zone
+
+========================================
+GROUP 8 - Color: #f9a7e7 (Pale Tan)
+========================================
+- University
+- School
+- Campus Design
+- Training Center
