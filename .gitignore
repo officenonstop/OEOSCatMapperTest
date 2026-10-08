@@ -9,3 +9,9 @@ dev-server*.log
 .vercel
 .env*
 .data/
+
+# OEOS runtime logs
+logs/*.log
+
+# OEOS installer candidate updates
+*.new*
