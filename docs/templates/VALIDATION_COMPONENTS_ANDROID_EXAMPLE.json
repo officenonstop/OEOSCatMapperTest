@@ -1,0 +1,32 @@
+{
+  "schema": "oeos-validation-components-v1",
+  "components": [
+    {
+      "id": "android-app",
+      "root": ".",
+      "platform": "android",
+      "interactionKind": "emulator",
+      "commands": {
+        "build": ["./gradlew", "assembleDebug"],
+        "test": ["./gradlew", "testDebugUnitTest"],
+        "static": ["./gradlew", "check"],
+        "lint": ["./gradlew", "lintDebug"],
+        "dependencyAudit": ["./gradlew", "dependencyCheckAnalyze"],
+        "interaction": ["maestro", "test", "e2e"],
+        "instrumentedTest": ["./gradlew", "connectedDebugAndroidTest"],
+        "coverage": ["./gradlew", "createDebugCoverageReport"],
+        "mutation": ["./gradlew", "pitest"]
+      },
+      "coverageReport": {
+        "path": "app/build/reports/coverage/androidTest/debug/connected/report.xml",
+        "format": "jacoco-xml"
+      },
+      "mutationReport": {
+        "path": "app/build/reports/pitest/mutations.xml",
+        "format": "pit-xml"
+      },
+      "thresholds": { "coverageMinimum": 100, "mutationMinimum": 100 },
+      "releaseArtifacts": ["app/build/outputs/apk/debug/app-debug.apk"]
+    }
+  ]
+}

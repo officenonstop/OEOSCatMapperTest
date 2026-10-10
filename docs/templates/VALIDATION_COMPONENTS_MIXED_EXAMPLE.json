@@ -1,0 +1,46 @@
+{
+  "schema": "oeos-validation-components-v1",
+  "components": [
+    {
+      "id": "web",
+      "root": "web",
+      "platform": "web",
+      "interactionKind": "browser",
+      "commands": {
+        "build": ["npm", "run", "build"],
+        "test": ["npm", "test"],
+        "static": ["npm", "run", "typecheck"],
+        "lint": ["npm", "run", "lint"],
+        "dependencyAudit": ["npm", "audit", "--audit-level=moderate"],
+        "interaction": ["npm", "run", "test:e2e"],
+        "coverage": ["npm", "run", "test:coverage"],
+        "mutation": ["npm", "run", "test:mutation"]
+      },
+      "coverageReport": { "path": "coverage/coverage-summary.json", "format": "json", "pointer": "/total/lines/pct" },
+      "mutationReport": { "path": "reports/mutation/summary.json", "format": "json", "pointer": "/mutationScore", "totalPointer": "/totalMutants" },
+      "thresholds": { "coverageMinimum": 100, "mutationMinimum": 100 },
+      "releaseArtifacts": ["dist/app.js"]
+    },
+    {
+      "id": "android-app",
+      "root": "android",
+      "platform": "android",
+      "interactionKind": "device",
+      "commands": {
+        "build": ["./gradlew", "assembleDebug"],
+        "test": ["./gradlew", "testDebugUnitTest"],
+        "static": ["./gradlew", "check"],
+        "lint": ["./gradlew", "lintDebug"],
+        "dependencyAudit": ["./gradlew", "dependencyCheckAnalyze"],
+        "interaction": ["maestro", "test", "e2e"],
+        "instrumentedTest": ["./gradlew", "connectedDebugAndroidTest"],
+        "coverage": ["./gradlew", "createDebugCoverageReport"],
+        "mutation": ["./gradlew", "pitest"]
+      },
+      "coverageReport": { "path": "app/build/reports/coverage/androidTest/debug/connected/report.xml", "format": "jacoco-xml" },
+      "mutationReport": { "path": "app/build/reports/pitest/mutations.xml", "format": "pit-xml" },
+      "thresholds": { "coverageMinimum": 100, "mutationMinimum": 100 },
+      "releaseArtifacts": ["app/build/outputs/apk/debug/app-debug.apk"]
+    }
+  ]
+}

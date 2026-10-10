@@ -1,0 +1,37 @@
+
+# --- BEGIN OEOS LF NORMALIZATION ---
+# OEOS-MANAGED-GITATTRIBUTES-START
+# Authoritative LF normalization for deterministic content hashes across platforms
+* text=auto eol=lf
+*.md text eol=lf
+*.sh text eol=lf
+  *.js text eol=lf
+  *.mjs text eol=lf
+  *.cjs text eol=lf
+  *.ts text eol=lf
+  *.mts text eol=lf
+  *.cts text eol=lf
+  *.tsx text eol=lf
+  *.jsx text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+**/* text=auto eol=lf
+**/*.md text eol=lf
+**/*.sh text eol=lf
+  **/*.js text eol=lf
+  **/*.mjs text eol=lf
+  **/*.cjs text eol=lf
+  **/*.ts text eol=lf
+  **/*.mts text eol=lf
+  **/*.cts text eol=lf
+  **/*.tsx text eol=lf
+  **/*.jsx text eol=lf
+**/*.json text eol=lf
+**/*.txt text eol=lf
+docs/** text=auto eol=lf
+docs/**/* text=auto eol=lf
+docs/**/** text=auto eol=lf
+docs/**/*.md text eol=lf
+docs/**/*.json text eol=lf
+# OEOS-MANAGED-GITATTRIBUTES-END
+# --- END OEOS LF NORMALIZATION ---
