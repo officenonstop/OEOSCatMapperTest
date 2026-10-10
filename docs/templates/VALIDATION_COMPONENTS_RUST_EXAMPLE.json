@@ -1,0 +1,34 @@
+{
+  "schema": "oeos-validation-components-v1",
+  "components": [
+    {
+      "id": "rust-service",
+      "root": ".",
+      "platform": "rust",
+      "interactionKind": "public-interface",
+      "commands": {
+        "build": ["cargo", "build", "--release"],
+        "test": ["cargo", "test", "--all-targets"],
+        "static": ["cargo", "check", "--all-targets"],
+        "lint": ["cargo", "clippy", "--all-targets", "--", "-D", "warnings"],
+        "dependencyAudit": ["cargo", "audit"],
+        "interaction": ["cargo", "test", "--test", "acceptance"],
+        "coverage": ["cargo", "llvm-cov", "--all-features", "--workspace", "--json", "--output-path", "coverage/llvm-cov.json"],
+        "mutation": ["./scripts/oeos-rust-mutation-report"]
+      },
+      "coverageReport": {
+        "path": "coverage/llvm-cov.json",
+        "format": "json",
+        "pointer": "/data/0/totals/lines/percent"
+      },
+      "mutationReport": {
+        "path": "reports/mutation/summary.json",
+        "format": "json",
+        "pointer": "/mutationScore",
+        "totalPointer": "/totalMutants"
+      },
+      "thresholds": { "coverageMinimum": 100, "mutationMinimum": 100 },
+      "releaseArtifacts": ["target/release/app"]
+    }
+  ]
+}
